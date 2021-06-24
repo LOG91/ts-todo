@@ -1,0 +1,18 @@
+.item {
+  color: #989898;
+  padding: 20px 0;
+  list-style: none;
+  font-size: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #ffd07b;
+  color: #fff;
+}

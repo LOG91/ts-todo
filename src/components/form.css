@@ -1,0 +1,21 @@
+.form {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+}
+.form-button {
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+}
+.form-button:hover {
+  background-color: #ff7c7c;
+  color: #fff;
+}
+.form-input {
+  padding: 8px;
+  outline: none;
+  color: orange;
+  margin-right: 10px;
+}
