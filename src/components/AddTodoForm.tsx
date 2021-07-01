@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './form.css';
 
 interface Props {
-  addTodo: AddTodo;
+  addTodo: AddHandler;
 }
 
 export const AddTodoForm: React.FC<Props> = ({ addTodo }) => {
