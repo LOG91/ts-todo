@@ -1,0 +1,46 @@
+.modal-wrap {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(11, 19, 30, 0.37);
+
+  .modal-content {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+  }
+  .add-form {
+    padding: 20px;
+    .title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .button-wrap {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      &__button {
+        cursor: pointer;
+        margin: 0 5px;
+        background-color: #dfe4ff;
+        border: 0;
+        padding: 10px;
+      }
+    }
+  }
+  .basic-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    &__title {
+      margin-right: 10px;
+      width: 80px;
+    }
+  }
+}
